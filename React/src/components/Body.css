@@ -1,0 +1,42 @@
+.Bod{
+    display: flex;
+    height: 89vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://images.pexels.com/photos/1574547/pexels-photo-1574547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.glass > h1{
+    color: white;
+    padding: 10px;
+    border-left: 3px solid white;
+    font-size: 40px;
+}
+.glass > h3{
+    color: rgb(240, 234, 247);
+    font-size: 20px;
+    padding: 10px;
+}
+.glass{
+    margin:0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:40vh;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+}
+@media screen and (max-width: 600px) {
+    .glass > h1{
+        font-size: 27px;
+    }
+    .glass > h3{
+        font-size: 13px;
+    }
+   }
