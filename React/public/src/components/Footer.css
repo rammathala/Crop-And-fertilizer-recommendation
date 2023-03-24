@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    //height: 20vh;
+    background-color: #191818;
+    color: white;
+}
+.devel{
+    font-size: 28px;
+}
+.infoo{
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    letter-spacing: 2px;
+}
